@@ -1,6 +1,6 @@
 import { useSelector } from 'react-redux';
-const ADMIN_EMAILS = ['adminflowerstore@gmial.com' ,'adminonlyview@gmial.com']
-const EDIT_EMAILS = ['adminflowerstore@gmial.com']
+const ADMIN_EMAILS = ['adminflowerstore@gmail.com' ,'adminonlyview@gmail.com']
+const EDIT_EMAILS = ['adminflowerstore@gmail.com']
 
 const useAuth = () => {
   const { user, token } = useSelector((state) => state.auth);

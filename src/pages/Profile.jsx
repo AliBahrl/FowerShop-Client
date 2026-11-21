@@ -47,7 +47,7 @@ function Profile() {
     <div className="w-[90%] m-auto my-10 mt-40">
       <div className="flex flex-col items-center mb-8">
         <img
-          src={['adminflowerstore@gmial.com', 'adminonlyview@gmial.com'].includes(user?.email) ? adminImg : userImg}
+          src={['adminflowerstore@gmail.com', 'adminonlyview@gmail.com'].includes(user?.email) ? adminImg : userImg}
           alt="avatar"
           className="w-20 h-20 rounded-full object-cover mb-3"
         />
